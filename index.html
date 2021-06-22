@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santorini</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div id="header">
+        <div class="logo-container">
+          <a href="#hero">
+            <img src="images/beach.png" alt="" id="header-img" />
+          </a>
+          <a href="#hero" class="logo">Santorini.com</a>
+        </div>
+        <nav id="nav-bar">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#products trip">Products Trip</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+        <i class="fas fa-bars" id="bars"></i>
+      </div>
+    </header>
+    <!--  -->
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="left-col">
+        <h1 id="title">Live your<br /><span>dreams</span> now!</h1>
+        <p id="description">
+          Put your email below to get special discount and offers from us
+        </p>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email.."
+            name="email"
+          />
+          <input type="submit" id="submit" />
+        </form>
+      </div>
+      <div class="right-col">
+        <img class="burger-img" src="./images/whooper.png" alt="" />
+      </div>
+      <div class="soc-icons">
+        <i class="fab fa-twitter icon"></i>
+        <i class="fab fa-facebook-f icon"></i>
+        <i class="fab fa-instagram icon"></i>
+      </div>
+    </section>
+    <!--  -->
+
+    <!-- Services Section -->
+    <section id="about" class="services-section">
+      <h1 class="title-section">About</h1>
+      <div class="services-container">
+        <div class="service">
+          <img class="service-icon" src="images/plane.png" alt="" />
+          <p>10k Trips Made</p>
+        </div>
+        <div class="service">
+          <img class="service-icon" src="images/callcenter.png" alt="" />
+          <p>Fast Support</p>
+        </div>
+        <div class="service">
+          <img class="service-icon" src="images/discount.png" alt="" />
+          <p>Best Deals</p>
+        </div>
+      </div>
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/cKedc8trR2Y"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <!--  -->
+    <section id="products trip" class="menu-section">
+      <h1 class="title-section">Products Trip</h1>
+      <div class="cards">
+        <div class="card">
+          <img class="card-img" src="images/Smur.jpg" alt="" />
+          <div class="card-content">
+            <h3 class="card-title">3D 2N</h3>
+            <p class="price">$2385</p>
+            <button class="card-btn">
+              Add <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="images/Smah2.jpeg" alt="" />
+          <div class="card-content">
+            <h3 class="card-title">5D 4N</h3>
+            <p class="price">$4754</p>
+            <button class="card-btn">
+              Add <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="images/Smur2.jpg" alt="" />
+          <div class="card-content">
+            <h3 class="card-title">7D 6N</h3>
+            <p class="price">$6899</p>
+            <button class="card-btn">
+              Add <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="images/smah.jpg" alt="" />
+          <div class="card-content">
+            <h3 class="card-title">14D 13N</h3>
+            <p class="price">$11956</p>
+            <button class="card-btn">
+              Add <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="menu-section">
+      <h1 class="title-section">Contacts</h1>
+      <div>
+        <i class="fab fa-twitter"></i>
+        <a href="https://twitter.com/santorinigr" target="_blank"
+          >@Santorinigr</a
+        >
+      </div>
+      <div>
+        <i class="fab fa-facebook-f"></i>
+        <a href="https://www.facebook.com/santorini/" target="_blank"
+          >Santorini Official</a
+        >
+      </div>
+    </section>
+    <footer>
+      &copy; Copyright Nur Hendra 2021 <i class="fab fa-free-code-camp"></i>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
